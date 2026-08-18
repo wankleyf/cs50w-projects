@@ -60,3 +60,71 @@ form{
     border: 1px solid #dadce0;
     box-shadow: 0 1px 1px rgba(0,0,0,.1);
 }
+.adv-container{
+    padding: 30px 40px;
+}
+.adv-header{
+    color: #d93025;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.adv-divider{
+    border: 0;
+    border-top: 1px solid #ebebeb;
+    margin-bottom: 30px;
+}
+.adv-subheader{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.adv-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 800px;
+}
+.adv-row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.adv-row label{
+    font-size: 13px;
+    width: 180px;
+    text-align: left;
+}
+.adv-row input[type="text"]{
+    flex: 1;
+    max-width: 450px;
+    padding: 5px 8px;
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;
+    outline: none;
+    font-size: 13px;
+    height: 25px;
+}
+.adv-row input[type="text"]:focus{
+    border: 1px solid #4285f4;
+}
+.btn-row{
+    margin-top: 10px;
+    justify-content: flex-end;
+    max-width: 630px;
+}
+.adv-btn{
+    background-color: #4d90fe;
+    color: white;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.adv-btn:hover{
+    background-color: #357ae8;
+}
